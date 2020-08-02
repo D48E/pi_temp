@@ -11,22 +11,26 @@ Functionality includes:
 # Install Guide:
 
 Extract the contents of the tarball:
-$ tar -xvzf pi_temp_v1.gz
+
+    $ tar -xvzf pi_temp_v1.gz
 
 Change directories into the pi_temp_v1 directory:
-$ cd pi_temp_v1
+
+    $ cd pi_temp_v1
 
 Run the install script.  install.sh will will create and configure the ~/pi_temp directory and files as well as the pi_temp.service file and pi_temp alias.  The bash install script will offer the option to change the install location (hit RETURN to use default configuration).
-$ ./install.sh
+
+    $ ./install.sh
 
 Simple test. 
-$ pitemp -r
+
+    $ pitemp -r
 
 You should see something like:
 
-08/02/20 16:58:23 - 115.1 F /47.2 C
+    08/02/20 16:58:23 - 115.1 F /47.2 C
 
-(Logs are going to /home/pi/pi_temp/pi_temp.log)
+    (Logs are going to /home/pi/pi_temp/pi_temp.log)
 
 That's it - you're up and running.
 
