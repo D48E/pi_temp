@@ -32,7 +32,7 @@ You should see something like:
 
     (Logs are going to /home/pi/pi_temp/pi_temp.log)
 
-That's it - you're up and running.
+That's it! You're up and running.
 
 # Explore options:
 
