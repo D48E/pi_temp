@@ -36,10 +36,10 @@ That's it - you're up and running.
 
 # Explore options:
 
-    $ pitemp			              <-- runs with default config (60s)
-    $ pitemp -h 		            <-- shows help
-    $ pitemp -s 2               <-- run with a sample time of 2s
-    $ pitemp -p /usb -s 30	    <-- logs to /usb/pi_temp.log every 30 s
-    $ pitemp -r                 <-- get and logs the current CPU temp
-    $ pitemp -i                 <-- verify current default
-    $ pitemp -v 		            <-- shows version installed
+    $ pitemp                <-- runs with default config (60s)
+    $ pitemp -h             <-- shows help
+    $ pitemp -s 2           <-- run with a sample time of 2s
+    $ pitemp -p /usb -s 30  <-- logs to /usb/pi_temp.log every 30 s
+    $ pitemp -r             <-- get and logs the current CPU temp
+    $ pitemp -i             <-- verify current default
+    $ pitemp -v             <-- shows version installed
